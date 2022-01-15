@@ -62,13 +62,13 @@ function SelectPokemon() {
     <div>
       <div className="btn">
         <Link to='/'>
-          <button >Lista de Pokemóns</button>
+          <button >Lista de Pokémons</button>
         </Link>
       </div>
       {loading ? <h1 style={{ textAlign: 'center' }}>Loading...</h1> : (
         <div className='container'>
           <section className='initial-pk'>
-            <h1>Pokemons iniciais</h1>
+            <h1>Pokémons iniciais</h1>
             <div className='initial-pk-container'>
               {initialPks.map((pk, i) => {
                 return (
@@ -80,7 +80,7 @@ function SelectPokemon() {
             </div>
           </section>
           <section className='selected-pk'>
-            <h1>Pokemons selecionados</h1>
+            <h1>Pokémons selecionados</h1>
             <div className="selected-pk-container" onDragOver={(event) => onDragOver(event)} onDrop={(event) => onDrop(event)}>
             </div>
           </section>

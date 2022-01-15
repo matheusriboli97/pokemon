@@ -63,7 +63,7 @@ const Home = () => {
         <>
           <div className="btn">
             <Link to='select-pk'>
-              <button >Selecionar Pokemon Inicial</button>
+              <button >Selecionar Pokémon Inicial</button>
             </Link>
           </div>
           <div className="grid-container">
