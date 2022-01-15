@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  width: 80%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn button {
+  cursor: pointer;
+  border-style: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: var(--yellow);
+  color: var(main-dark);
+  font-size: 1em;
+  font-weight: bold;
+}

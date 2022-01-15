@@ -1,0 +1,23 @@
+:root {
+  --main: #2E2E35;
+  --main-dark: #2B2B34;
+  --white: #DADADA;
+  --yellow: #E4AA48;
+  --red: #ff6961;
+  --green: #90ca87;
+}
+
+body {
+  margin: 0;
+  font-family: 'Fira Code',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main);
+  color: var(--white);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
